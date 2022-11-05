@@ -96,8 +96,9 @@ input,
     background-color: #56CCF2 !important;
 }
 .btn-delete-tab{
+    margin-top: -4px;
     border-radius: 30px !important;
-    font-size: 18px !important;
+    font-size: 15px !important;
     padding: 1px 5px !important;
 }
 #area-resultado .col-12{
@@ -106,6 +107,9 @@ input,
 }
 #area-resultado select{
    width: fit-content;
+}
+.table th, .table td{
+ font-size: 0.8em;
 }
 .card-header{
     background-color: #FAFAFA ;

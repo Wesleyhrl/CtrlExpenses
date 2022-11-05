@@ -54,6 +54,7 @@ main {
     background: #FAFAFA;
 }
 #principal{
+    text-align: center;
     height: 500px;
     background: #FAFAFA;
     display: flex;
@@ -68,8 +69,10 @@ main img {
     width: 100%;
 }
 /** Info ******/
+section{
+    min-height: 100%;
+}
 #info{
-    height: 350px;
     text-align: center;
 }
 #info h1{
@@ -79,6 +82,7 @@ main img {
     margin: 25px 0px;
 }
 #btn-start{
+    margin-bottom: 20px;
     background: #2F80ED;
     border: #2F80ED;
     border-radius: 100px;

@@ -197,8 +197,9 @@ function pesquisarDespesa() {
         document.getElementById("tipo").value,
         document.getElementById("descricao").value,
         document.getElementById("valor").value);
-    inserirDadosTabela(bd.pequisar(despesas));
     zerarCampos();
+    inserirDadosTabela(bd.pequisar(despesas));
+
 
 }
 function removerDespesa() {
