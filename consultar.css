@@ -1,0 +1,177 @@
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .offcanvas {
+        background: none !important;
+    }
+}
+
+/** Geral *********/
+html,
+body {
+    height: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.img-branca {
+    filter: brightness(0) invert(1);
+}
+
+h1 {
+    color: #263238 !important;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+/** Header ******/
+header {
+    height: 64px;
+}
+
+#menu {
+    background: #56CCF2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#menu a {
+    font-size: 20px;
+}
+
+#logo img {
+    margin-top: -15px;
+}
+
+#logo-txt {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.offcanvas {
+    width: 100% !important;
+    background: linear-gradient(to right, #2F80ED, #56CCF2);
+}
+
+/** Main ******/
+main {
+    min-height: 100%;
+    background-color: #FAFAFA;
+}
+
+main h1 {
+    margin-top: 10px;
+}
+select,
+input,
+#btn-pesquisar {
+    border-radius: 0 !important;
+    margin: 10px;
+}
+.area-btn{
+    margin: -5px ;
+}
+.area-btn{
+    border: solid rgba(0, 0, 0, 0);
+}
+#btn-pesquisar {
+    background-color: #2F80ED !important;
+    border: #2F80ED !important;
+    border-radius: 30px !important;
+    font-size: 25px !important;
+    padding: 2px 9px !important;
+    
+}
+
+#btn-pesquisar:hover {
+    background-color: #56CCF2 !important;
+}
+.btn-delete-tab{
+    border-radius: 30px !important;
+    font-size: 18px !important;
+    padding: 1px 5px !important;
+}
+#area-resultado .col-12{
+    display: flex;
+    justify-content: center;
+}
+#area-resultado select{
+   width: fit-content;
+}
+.card-header{
+    background-color: #FAFAFA ;
+}
+.card-header select{
+    margin-top: -2px;
+}
+.card-header h6{
+    font-weight: bolder;
+    line-height: 31px;
+}
+.card-body{
+    text-align: center;
+}
+
+/** Footer ******/
+footer {
+    background: #56CCF2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#rodape {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+#logo-footer img {
+    margin-top: -15px;
+}
+
+#logo-footer-txt {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#menu-footer {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+}
+
+#menu-footer a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+#menu-footer a:hover {
+    color: rgba(255, 255, 255, 0.623);
+}
+/** MODAL ******/
+#excluirDespesa .modal-header{
+    background: linear-gradient(to right, #FFDD00, #FBB034);
+}
+#excluirDespesa .modal-body {
+    flex-direction: column;
+    align-items: center;
+}
+#excluirDespesa .modal-body h2{
+    font-size: 50px;
+    color: #FBB034;
+    flex-grow: 100000;
+}

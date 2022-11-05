@@ -1,0 +1,124 @@
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .offcanvas{
+        background: none !important;
+    }
+ }
+/** Geral *********/
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+h1{
+    color: #263238 !important;
+}
+p{
+    font-size: 20px;
+}
+
+.img-branca {
+    filter: brightness(0) invert(1);
+}
+
+/** Header ******/
+header {
+    height: 64px;
+}
+
+#menu {
+    background: #56CCF2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#menu a{
+    font-size: 20px;
+}
+
+#logo img {
+    margin-top: -15px;
+}
+
+#logo-txt {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.offcanvas {
+    width: 100% !important;
+    background: linear-gradient(to right, #2F80ED, #56CCF2);
+} 
+/** Main ******/
+main {
+    background: #FAFAFA;
+}
+#principal{
+    height: 500px;
+    background: #FAFAFA;
+    display: flex;
+    align-items: flex-end;
+}
+
+main h1 {
+    margin-bottom: 85px;
+}
+
+main img {
+    width: 100%;
+}
+/** Info ******/
+#info{
+    height: 350px;
+    text-align: center;
+}
+#info h1{
+    margin: 25px 0px;
+}
+#info p{
+    margin: 25px 0px;
+}
+#btn-start{
+    background: #2F80ED;
+    border: #2F80ED;
+    border-radius: 100px;
+    
+}
+#btn-start:hover{
+    background-color: #56CCF2;
+}
+/** Footer ******/
+footer{
+    background: #56CCF2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#rodape{
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+}
+#logo-footer img{
+    margin-top: -15px;
+}
+#logo-footer-txt{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+#menu-footer{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+}
+#menu-footer a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+#menu-footer a:hover{
+    color: rgba(255, 255, 255, 0.623);
+}
